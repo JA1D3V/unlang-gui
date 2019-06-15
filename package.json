@@ -1,0 +1,20 @@
+{
+  "name": "unlang",
+  "bin": {
+    "unlang": "main.js"
+  },
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {
+    "node-run-cmd": "^1.0.1",
+    "prompt": "^1.0.0",
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
