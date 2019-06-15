@@ -12,6 +12,7 @@
 
         * {
             font-family: 'Inconsolata', monospace;
+            
         }
 
         .bg {
@@ -19,11 +20,16 @@
             width: 100vw;
         }
 
-        .code {
-            height: 75vh;
+        .btns {
+            text-align: center;
         }
 
-        .btns {
+        #logo {
+            margin-top: 3%;
+            max-width: 30%;
+        }
+
+        #logo-field {
             text-align: center;
         }
     </style>
@@ -32,6 +38,9 @@
   </head>
   <body>
     <div class='container-fluid bg'>
+        <div id='logo-field'>
+            <img src="imgs/un.png" alt="logo" id='logo'>
+        </div>
         <div class='row code'>
             <div class='col-6'>
                 <div class="form-group">
